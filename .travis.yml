@@ -6,6 +6,16 @@ cache: npm
 
 before_install:
   - ls -la
+  - mkdir dist
+  - cd dist
+  - ls -la
+  # just to be sure that we're on the package.json directory
+  - cd ..
+
+install:
+  - ls -la
+  - npm install
+  - ls -la
 
 notifications:
   slack:
