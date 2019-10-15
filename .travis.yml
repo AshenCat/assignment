@@ -10,7 +10,6 @@ env:
   NOW_TOKEN: j4ei0j8Rxd5NT06tXCuuQyRL
 
 install:
-  - npm install
   - "npm config set spin false"
   - npm install -g now
 
